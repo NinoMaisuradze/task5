@@ -36,30 +36,34 @@ h1 {
 }
 
 .firstcards {
-  /* display: flex;*/
-  width: 1336px;
-  height: 430px;
-  justify-content: space-between;
-  box-sizing: border-box;
-  gap: 32px;
-  margin-top: 48px;
-  margin-right: 52px;
-  margin-left: 52px;
-}
-
-.secondcards {
   display: flex;
   width: 1336px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/*
+.secondcards {
+  row-gap: 32px;
+  width: 1336px;
   height: 430px;
   justify-content: space-between;
   box-sizing: border-box;
   gap: 32px;
-}
+  margin-right: 52px;
+  margin-left: 52px;
+}*/
 
 .content {
   border: 1px solid #eaecf0;
 }
 
+img {
+  width: 310px;
+  height: 230px;
+}
 .name {
   font-size: 18px;
   font-weight: 600;
