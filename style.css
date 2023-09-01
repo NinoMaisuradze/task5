@@ -39,11 +39,11 @@ h1 {
   display: flex;
   width: 1336px;
   justify-content: space-between;
-  box-sizing: border-box;
   gap: 32px;
-  margin-top: 50px;
-  margin-left: 52px;
-  margin-right: 52px;
+  box-sizing: border-box;
+  margin-bottom: 48px;
+  padding-left: 52px;
+  padding-right: 52px;
 }
 .secondcards {
   display: flex;
@@ -57,6 +57,8 @@ h1 {
 
 .content {
   border: 1px solid #eaecf0;
+  width: 310px;
+  height: 430px;
 }
 
 img {
