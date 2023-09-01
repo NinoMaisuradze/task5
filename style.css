@@ -53,6 +53,7 @@ h1 {
   box-sizing: border-box;
   gap: 32px;
   margin-right: 52px;
+  padding-left: 52px;
 }
 
 .content {
@@ -92,4 +93,58 @@ img {
   border-radius: 100px;
   margin-top: 24px;
   color: #f2f4f7;
+}
+
+footer {
+  background-color: #53535354;
+  gap: 48px;
+  margin-top: 48px;
+  height: 512px;
+  width: 100%;
+}
+
+.footerblock1 {
+  width: 318px;
+  height: 221px;
+  padding-left: 52px;
+  margin-right: 144.95px;
+}
+
+.footerimg {
+  width: 100px;
+  height: 221px;
+}
+
+.footertext {
+  width: 306.046875px;
+  height: 73px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #535353;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+footer li {
+  color: #535353;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  width: 24px;
+  height: 24px;
+}
+
+.footernav {
+  display: flex;
+  margin-top: 28px;
+  width: 104px;
+  height: 24px;
+}
+
+.middlefooternav {
+  margin-right: 16px;
+  margin-left: 16px;
 }
