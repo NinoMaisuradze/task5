@@ -125,19 +125,21 @@ footer {
   line-height: 16.94px;
   color: #535353;
 }
-
+ul,
+li {
+  list-style-type: none;
+}
 .footericons {
   display: flex;
-
-  width: 24px;
-  height: 24px;
   color: #1e1e1e;
+  margin-top: 28px;
 }
 
 .footerblock2 {
   width: 136px;
   display: flex;
   flex-direction: column;
+  margin-left: 627px;
 }
 
 h2 {
@@ -145,4 +147,12 @@ h2 {
   font-size: 20px;
   font-weight: 600;
   padding-left: 24px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #535353;
+  font-size: 14px;
+  line-height: 16.94px;
 }
