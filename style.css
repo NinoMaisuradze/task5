@@ -101,6 +101,8 @@ footer {
   margin-top: 48px;
   height: 512px;
   width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footerblock1 {
@@ -124,27 +126,23 @@ footer {
   color: #535353;
 }
 
-ul,
-li {
-  list-style-type: none;
-}
-footer li {
-  color: #535353;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: normal;
+.footericons {
+  display: flex;
+
   width: 24px;
   height: 24px;
+  color: #1e1e1e;
 }
 
-.footernav {
+.footerblock2 {
+  width: 136px;
   display: flex;
-  margin-top: 28px;
-  width: 104px;
-  height: 24px;
+  flex-direction: column;
 }
 
-.middlefooternav {
-  margin-right: 16px;
-  margin-left: 16px;
+h2 {
+  margin-bottom: 71px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 24px;
 }
